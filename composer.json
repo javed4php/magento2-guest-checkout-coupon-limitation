@@ -10,7 +10,7 @@
     "license": [
         "proprietary"
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "support": {
         "email": "javed4php@gmail.com",
         "issues": ""
