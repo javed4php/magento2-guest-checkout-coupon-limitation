@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Javed LLC. All rights reserved.
+ * See COPYING.txt for license details.
+ * http://www.javed.com | javed4php@gmail.com
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="javed" translate="label" sortOrder="400">
+            <label>Javed</label>
+        </tab>
+        <section id="javed_checkout" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="5" translate="label">
+            <label>Checkout</label>
+            <tab>javed</tab>
+            <resource>Javed_GuestCheckoutCouponLimitation::javed_guestcheckoutcouponlimitation</resource>
+            <group id="guestcheckoutcouponlimitation" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Limit Guest Checkout Coupon</label>
+                <attribute type="expanded">1</attribute>
+                <comment>
+                    <![CDATA[
+                    <strong>Copyright © 2018 <a href="http://www.javed.com" target="_blank">www.javed.com</a> / <a href="mailto:javed4php@gmail.com">javed4php@gmail.com</a></strong><br />
+                    Thanks for choosing Javed Extensions. Trusted by 1000s of developers worldwide.<br/><br/>
+                    <hr style="border-top: 1px solid #e3e3e3" />
+                  ]]>
+                </comment>
+                <field id="module_version" translate="label" type="label" sortOrder="0" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Module Version</label>
+                    <frontend_model>Javed\GuestCheckoutCouponLimitation\Block\Adminhtml\System\Config\Form\Module\Version</frontend_model>
+                </field>
+                <field id="composer_version" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Composer Version</label>
+                    <frontend_model>Javed\GuestCheckoutCouponLimitation\Block\Adminhtml\System\Config\Form\Composer\Version</frontend_model>
+                </field>
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
