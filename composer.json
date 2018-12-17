@@ -1,0 +1,35 @@
+{
+    "name": "javed/magento2-guest-checkout-coupon-limitation",
+    "description": "Restricting coupon with maximum uses for guest checkout for Magento2",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0",
+       
+    },
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+        "proprietary"
+    ],
+    "minimum-stability": "dev",
+     "license": "GPL-3.0",
+    "support": {
+        "email": "javed4php@gmail.com",
+        "issues": ""
+    },
+    "authors": [
+        {
+            "name": "Javed ahmad Shaik",
+            "email": "javed4php@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Javed\\GuestCheckoutCouponLimitation\\": ""
+        }
+    }
+}
