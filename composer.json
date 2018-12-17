@@ -11,7 +11,6 @@
         "proprietary"
     ],
     "minimum-stability": "dev",
-     "license": "GPL-3.0",
     "support": {
         "email": "javed4php@gmail.com",
         "issues": ""
