@@ -9,6 +9,7 @@
         "maximum use",
         "magento2"
     ],
+    "minimum-stability":"dev",
     "license": [
         "proprietary"
     ],
