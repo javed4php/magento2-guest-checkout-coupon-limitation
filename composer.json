@@ -11,6 +11,8 @@
     "OSL-3.0",
     "AFL-3.0"
   ],	
+  "minimum-stability": "stable",
+    "prefer-stable": true,
     "repositories": {"type": "vcs","url": "https://github.com/javed4php/magento2-guest-checkout-coupon-limitation"},
     "support": {
         "email": "javed4php@gmail.com",
